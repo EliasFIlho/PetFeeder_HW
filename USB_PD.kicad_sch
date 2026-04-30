@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "062ed7d1-02e9-4dab-95a8-da28869adc09")
+	(paper "A4")
+	(lib_symbols)
+	(text "I want to use USB-C PD to power my device, \nbut since i'm using modules and a dev board, i also need other voltages than the 12V for the motor\n\nRequirements:\n		-	12V ~1A for Motor\n		-	5V	~1A for Board and modules (The board already have a LDO, so i can route the 3.3V from the pin)"
+		(exclude_from_sim no)
+		(at 142.24 76.962 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "5565ebf1-c62d-4c94-abc3-55eb45022617")
+	)
+	(hierarchical_label "POWER_OUT"
+		(shape input)
+		(at 190.5 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "825fc28d-380a-4394-abd8-6ee52262a9c1")
+	)
+)
